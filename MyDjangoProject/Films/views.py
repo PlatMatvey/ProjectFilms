@@ -8,7 +8,7 @@ def web_films(request):
     return render(request, 'Films/home.html', {'films': films})
 
 def login(request):
-    return render(request, 'Films/register.html')
+    return render(request, 'Films/login.html')
 
 def create_comments(request):
     if request.method == 'POST':

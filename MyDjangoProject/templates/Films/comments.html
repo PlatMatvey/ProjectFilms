@@ -7,12 +7,12 @@
     <title>Title</title>
 </head>
 <body>
-<div class="container mt-4">
-<form method="POST" class="p-4 border rounded bg-light">
-{% csrf_token %}
-{{ form.as_p }}
-<button type="submit">Save</button>
-</form>
+<div style="position: absolute; top: 25%; width: 500px; left: 35%" class="container mt-4">
+    <form method="POST" class="p-4 border rounded bg-light">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-warning">Save</button>
+    </form>
 </div>
 </body>
 </html>

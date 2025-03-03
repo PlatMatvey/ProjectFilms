@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_recaptcha' ,
     'Films',
 ]
 
@@ -126,3 +127,5 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'register'
+RECAPTCHA_PUBLIC_KEY = '6LeKUugqAAAAACTAe94aaKiOGPd2bxXKyHP-yJBD'
+RECAPTCHA_PRIVATE_KEY = '6LeKUugqAAAAADiOdjwVO00GCZZTx-aKxnZI7yPd'
